@@ -9,3 +9,5 @@ spring:
       server:
         git:
           uri: https://github.com/essrakh/config-repo.git
+          clone-on-start: true
+          default-label: main
